@@ -4,11 +4,6 @@
 // 8/25/2016
 #include "fixed.h"
 
-//int fputc(int ch, FILE *f){
-//  ST7735_OutChar(ch);
-//  return 1;
-//}
-
 /****************ST7735_sDecOut3****************/ 
 void ST7735_sDecOut3(int32_t n) {
 	if (n < -9999 || n > 9999) {
